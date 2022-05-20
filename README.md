@@ -1,10 +1,4 @@
-# Web Speech AI Bot
-
-> This is a simple AI bot made with nodejs, web speech api and [dialogflow](https://dialogflow.cloud.google.com/#/getStarted)
-
-![WebSpeechAiBOt](public/img/screenshot.PNG)
-
-### [Live Preview](https://webspeechaibot.herokuapp.com/)
+# Advisor Gene Bot
 
 This is how this web app works:
 
@@ -60,9 +54,3 @@ npm run dev
 #Run in prod mode
 npm start
 ```
-
-- version: 1.0.0
-- License: MIT
-- author: Sajid Ansari
-"# AdvisorBot" 
-"# AdvisorGene" 
