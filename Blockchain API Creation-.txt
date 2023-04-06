@@ -1,0 +1,47 @@
+Blockchain API Creation-
+•	Create a simple API for blockchain using the below – 
+o	Nodejs
+o	Express js
+o	Crypto-js
+Steps 
+
+1.	Setup the Project 
+
+                    $ mkdir blockchain && cd blockchain && npm init -y 
+
+                    $ npm install express --save && npm install cryptojs –save
+
+2.	Copy the attached js files inside the blockchain folder.
+
+3.	Run the API using the below command –
+Blockchain > Node Main.js
+
+
+API endpoints
+
+show all endpoints and navigate to it
+GET "localhost:3000" [update the URL to AWS URL in main.js]
+show the complete blockchain
+GET "localhost:3000/chain"
+add some data to the chain
+GET "localhost:3000/add?total=12"
+check if blockchain is valid
+GET "localhost:3000/validate"
+broke the chain changing second block value
+GET "localhost:3000/corrupt"
+
+Deploy Node API into AWS
+
+	Create a ec2 instance with Redhat linux
+	Save the private key and generate ppk file using puttygen
+	Add the TCP port 80 in Security group as well Network ACL in VPC instance.
+	Once the instance is up – Connect unix box using putty / winscp using the ppk authentication.
+	Copy the blockchain project in AWS box
+	Execute the below commands – 
+o	Sudo yum install npm
+o	npm install express --save && npm install cryptojs –save
+o	sudo yum install httpd
+o	Blockchain > node main.js –8080
+[API will be up and running]
+
+
